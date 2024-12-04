@@ -1,5 +1,4 @@
-# Task 1 solution:
-name=input("What is your name?")
-age=int(input("How old are you?"))
-years_left=100-age
-print(f'hi {name}, you have {years_left} years left until you turn 100!')
+# Task 1 solution :f-string
+name=input("Enter your name: ")
+favorite_food=input("Enter your favorite food: ")
+print(f"{name} likes {favorite_food}")
