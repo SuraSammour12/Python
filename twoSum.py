@@ -1,10 +1,10 @@
 # Two Sum : LeetCode
 # Method 1
-#def twoSum(self,nums:list[int],target:int):
-  #  for i in range(len(nums)):
-     #   for j in range(i+1,len(nums)):
-        #    if i+j==target:
-          #      return[i,j]
+def twoSum(self,nums:list[int],target:int):
+   for i in range(len(nums)):
+       for j in range(i+1,len(nums)):
+          if i+j==target:
+              return[i,j]
 
 # Method 2 : O(n) Time Complexity : Dictionary
 
@@ -19,7 +19,7 @@ for index in range(len(nums)):
         print(d[target-nums[index]],index)
     else:
         d[nums[index]]=index
-        
+
 # Method 3 :
 # solution using set (Assumption return True if there's a solution,and False otherwise)
 nums = [1, 2, 3, 4]
